@@ -27,4 +27,7 @@ Student.beforeCreate((student) => {
   student.lastName = nameLast[0].toUpperCase() + nameLast.slice(1);
 });
 
+
 module.exports = Student;
+
+
